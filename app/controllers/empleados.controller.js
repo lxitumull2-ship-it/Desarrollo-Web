@@ -26,7 +26,7 @@ exports.create = (req, res) => {
     };
 
     // Save a new Client into the database
-    Empleado.create(cliente)
+    Empleado.create(empleados)
         .then(data => {
             res.send(data);
         })
