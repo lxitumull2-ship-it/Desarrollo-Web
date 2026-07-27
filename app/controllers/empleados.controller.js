@@ -17,7 +17,7 @@ exports.create = (req, res) => {
     const empleados = {
         nombre: req.body.nombre,
         apellido: req.body.apellido,
-        direccion: req.body.direccion, 
+        puesto: req.body.puesto, 
         correo: req.body.correo,
         telefono: req.body.telefono,
         ingreso: req.body.ingreso,
